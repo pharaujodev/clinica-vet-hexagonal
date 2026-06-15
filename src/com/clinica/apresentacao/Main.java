@@ -157,7 +157,7 @@ public class Main {
     private static void imprimirConsulta(Consulta consulta) {
         System.out.println(
             "Consulta #" + consulta.getId() +
-            " — " + consulta.getData() +
+            " - " + consulta.getData() +
             " " + consulta.getHora() +
             " | " + consulta.getTipo() +
             " | " + consulta.getSituacao()
